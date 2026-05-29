@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Git - Juan Gustavo</title>
+    <style>
+        /* Variables de color para fácil personalización */
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #06b6d4;
+            --text-dark: #1f2937;
+            --text-light: #4b5563;
+            --bg-gradient: linear-gradient(135deg, #e0e7ff 0%, #e0f2fe 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: var(--bg-gradient);
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+        }
+
+        h1 {
+            color: var(--text-dark);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .subtitle {
+            color: var(--primary-color);
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: #f3f4f6;
+            color: var(--text-dark);
+            padding: 6px 12px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">JC</div>
+        
+        <h1>Juan Gustavo Ángel Cruz Méndez</h1>
+        <div class="subtitle">Desarrollo Web Integral</div>
+        
+        <p>
+            ¡Hola! Este es el inicio de mi práctica de Git y GitHub para la UNIDAD 2. 
+            Aquí estaré integrando y gestionando el código del taller, asegurando el control de versiones de este sitio web.
+        </p>
+        
+        <div class="badge-container">
+            <span class="badge">🌐 HTML5</span>
+            <span class="badge">🎨 CSS3</span>
+            <span class="badge">🚀 Git & GitHub</span>
+            <span class="badge">🎓 UTNG</span>
+        </div>
+    </div>
+
+</body>
+</html>
